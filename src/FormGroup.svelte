@@ -1,7 +1,7 @@
 <script>
   import classnames from './utils';
 
-  export let className = '';
+  export let className = 'mb-3';
   export { className as class };
   export let check = false;
   export let disabled = false;

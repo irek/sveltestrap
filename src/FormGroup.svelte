@@ -11,7 +11,7 @@
   export let row = false;
   export let tag = null;
 
-  $: classes = classnames(className, '', {
+  $: classes = classnames(className, {
     row,
     'form-check': check,
     'form-check-inline': check && inline,
